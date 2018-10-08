@@ -29,7 +29,7 @@ import { observer } from 'mobx-react';
 //例子2
 
 class MyState {
-@observable num1 = 0;
+@observable num1 = 100;
 @observable num2 = 100;
    
 @action addNum1 = () => {
